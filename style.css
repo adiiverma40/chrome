@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    
+    color: white;
+
+}
+header img{
+    width: 2em;
+    border-radius: 30em;
+
+}
+header{
+    background-color: rgba(251, 251, 255, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+#main_body h1{
+    padding-top: 100px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin: 1em;
+    padding: auto;
+}
+.header_link{
+    color: white;
+    text-decoration: none;
+}
+header ul :hover{
+    color: rgba(35, 151, 209, 0.568);
+    
+
+}
+body {
+    background-image: url(background.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main_body h1{
+    text-align: center;
+}
+#searchInput{
+    border: none;
+    padding-left: 1em;
+    width: 50%;
+    height: 3em;
+    border-radius: 10em;
+
+    
+
+}
+#searchForm{
+    padding: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 3em;
+}
+#submit:hover{
+    color: white;
+    background-color: rgb(244, 175, 175);
+}
+.card{
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    
+}
+.mt{
+    border: none;
+    border-radius: 10px;
+    margin-left: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color:rgba(251, 251, 255, 0.5);
+    box-shadow: 5px 5px 10px #888888;
+    transition: background-color 1s, color 0.5s;
+
+}
+.mt img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 2px 2px 2px 2px ;
+    height: 205px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.mt:hover{
+    background-color: white;
+    color: black;
+}
+a p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h4{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgba(251, 251, 255, 0.7);
+}
+h4:hover{
+    color: white;
+    cursor: pointer;
+}
