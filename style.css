@@ -44,7 +44,7 @@ header ul :hover{
 
 }
 body {
-    background-image: url(background.jpg);
+    background-image: url(Midnight\ Embers.png);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -129,3 +129,18 @@ h4:hover{
     color: white;
     cursor: pointer;
 }
+.gap{
+    height: 252px;
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(to right, #ff4e50, #020ffd,#000);
+    /* You can adjust the direction and colors as per your preference */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 66px;
+    font-weight: bold;
+}
+/* .google{
+    margin-top: 150px;
+} */

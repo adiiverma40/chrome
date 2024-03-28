@@ -1,0 +1,76 @@
+@import "https://unpkg.com/open-props";
+/* @import "https://unpkg.com/open-props/normalize.min.css"; */
+
+.scrollport {
+  /* -webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000); */
+
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+
+  display: flex;
+  gap: var(--size-10);
+  align-items: start;
+  padding: var(--size-10);
+}
+
+.scrollport>div {
+  block-size: 300px;
+  aspect-ratio: 9/6 auto;
+  border-radius: var(--radius-3);
+  box-shadow: var(--shadow-4);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.discription {
+  padding: 10px;
+  font-size: 14.5px;
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  background-color: rgba(44, 187, 99, .15);
+}
+
+.image {
+  height: 96%;
+  margin: auto;
+  margin-left: 5px;
+  border-radius: 1em;
+  width: 287px;
+}
+
+
+
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 15px;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
